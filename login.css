@@ -1,0 +1,47 @@
+
+body
+{
+    background-image:linear-gradient(to left ,rgb(156, 156, 190) ,rgb(164, 140, 140)) ;
+}
+.container
+{
+    background-color:rgba(255, 255, 255, 0.321);
+    box-shadow: 1px 2px 20px black;
+    position:absolute;
+    top:20%;
+    left:35%;
+    border-radius: 10px;
+}
+input,label,button
+{
+   margin:20px 30px;
+   font-size: 30px;
+   
+}
+label,button{
+    padding:5px;
+    
+}
+
+@media only screen and ( max-width : 430px)
+{
+input,label,button
+{
+   margin:5px 10px;
+   font-size: 12px;
+   
+}
+label,button{
+    padding:2px;
+    
+}
+.container
+{
+    
+    top:30%;
+    left:35%;
+    border-radius: 10px;
+}
+
+
+}

@@ -1,0 +1,38 @@
+
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: ;
+}
+:root
+{
+    --fstcol:#030303;
+    --font:white;
+    --maincolor:#fac12f;
+    --top:#272830;
+
+}
+
+body
+{
+    background-color:var(--fstcol) ;
+}
+
+
+.project
+{
+    background-color:var(--fstcol); 
+}
+span
+{
+    color: var(--maincolor);
+}
+h1
+{
+    color:var(--font);
+}
+@media screen and (max-width:450px)
+{
+
+}
