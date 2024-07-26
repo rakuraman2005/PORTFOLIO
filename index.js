@@ -1,4 +1,6 @@
 
+const app=require('express');
+
 let burger = document.querySelector("#burger");
 let Links = document.querySelector("#nav-li");
 burger.addEventListener('click',()=> {
@@ -18,3 +20,6 @@ ScrollReveal({
  ScrollReveal().reveal('p', { delay: 0 , origin:'bottom' });
  ScrollReveal().reveal('#main', { delay: 0 , origin:'right' });
  ScrollReveal().reveal('.bt', { delay: 700 , origin:'bottom' });
+
+ app.listen(3000);
+ 

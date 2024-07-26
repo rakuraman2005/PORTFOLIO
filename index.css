@@ -57,24 +57,10 @@ li,a{
 }
 li :hover{
     color:var(--maincolor);
+    
 }
-li::after{
-    content: '';
-    height: 2px;
-    width: 0;
-    background: var(--maincolor);
-    position: absolute;
-     left:0;
-    bottom: -10px;
-    transition:1.2s;
 
-}
-li:hover::after{
-    width:50%;
-    opacity: 1;
-    scale: 1.5;
-   
-}
+
 #body h1
 {
     color:var(--font);

@@ -1,0 +1,25 @@
+*
+{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+:root
+{
+    --fstcol:#030303;
+    --font:white;
+    --maincolor:#fac12f;
+    --top:#272830;
+
+}
+h1
+{
+    font-size: 400px;
+    color: var(--font);
+}
+span
+{
+    color: var(--maincolor);
+    
+}

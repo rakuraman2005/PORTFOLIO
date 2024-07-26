@@ -1,0 +1,31 @@
+*
+{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+:root
+{
+    --fstcol:#030303;
+    --font:white;
+    --maincolor:#fac12f;
+    --top:#272830;
+
+}
+body
+{
+    background-color: var(--fstcol);
+}
+h1
+{
+    position: absolute;
+    top: 40%;
+    font-size: 100px;
+    color:var(--font);
+}
+span
+{
+    color: var(--maincolor);
+    
+}
