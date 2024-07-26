@@ -17,5 +17,4 @@ ScrollReveal({
  ScrollReveal().reveal('h1', { delay: 100 , origin:'left' });
  ScrollReveal().reveal('p', { delay: 0 , origin:'bottom' });
  ScrollReveal().reveal('#main', { delay: 0 , origin:'right' });
- 
  ScrollReveal().reveal('.bt', { delay: 700 , origin:'bottom' });

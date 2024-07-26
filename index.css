@@ -39,9 +39,38 @@ li,a{
   text-align: center;
    justify-content: space-between;
 }
+#links
+{
+    position:absolute;
+    width: 30%;
+    height:50px;
+    top: 90%;
+    left:2%;
+    display: inline-flex;
+    background-color:transparent;
+    justify-content:left;
+
+}
+
 li :hover{
     color:var(--maincolor);
-    text-decoration: underline;
+}
+li::after{
+    content: '';
+    height: 2px;
+    width: 0;
+    background: var(--maincolor);
+    position: absolute;
+     left:0;
+    bottom: -10px;
+    transition:1.2s;
+
+}
+li:hover::after{
+    width:50%;
+    opacity: 1;
+    scale: 1.5;
+   
 }
 #body h1
 {
@@ -118,18 +147,6 @@ li :hover{
 #button2 a
 {
     padding: 10px;
-
-}
-#links
-{
-    position:absolute;
-    width: 30%;
-    height:50px;
-    top: 90%;
-    left:2%;
-    display: inline-flex;
-    background-color:transparent;
-    justify-content:left;
 
 }
 #role h2
