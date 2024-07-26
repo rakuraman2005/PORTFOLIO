@@ -51,7 +51,10 @@ li,a{
     justify-content:left;
 
 }
-
+.nav-li
+{
+    position: relative;
+}
 li :hover{
     color:var(--maincolor);
 }
