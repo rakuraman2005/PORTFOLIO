@@ -11,7 +11,6 @@
     --font:white;
     --maincolor:#fac12f;
     --top:#272830;
-
 }
 h1
 {
@@ -21,5 +20,5 @@ h1
 span
 {
     color: var(--maincolor);
-    
+
 }
